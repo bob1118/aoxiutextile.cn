@@ -6,7 +6,7 @@ const zh = {
     products: "产品展示",
     productNames: ["高档棉布", "优质丝绸", "精美羊毛"],
     contact: "联系我们",
-    contactText: "电话：400-888-8888<br>邮箱：info@aoxiutextile.cn<br>地址：浙江海宁经编产业园区经编八路17号",
+    contactText: "电话：13757321668<br>邮箱：440081234@163.com<br>地址：浙江海宁经编产业园区经编八路17号",
     footer: "版权所有 © 2025 浙江奥秀纺织新材料科技有限公司"
 };
 
@@ -18,7 +18,7 @@ const en = {
     products: "Products",
     productNames: ["Premium Cotton", "Quality Silk", "Fine Wool"],
     contact: "Contact Us",
-    contactText: "Tel: +86-400-888-8888<br>Email: info@aoxiutextile.cn<br>Address: No.17 Jingbian 8th Road, Haining warp knitting Industrial Park, Zhejiang, China",
+    contactText: "Mobile: +86-13757321668<br>Email: 440081234@163.com<br>Address: No.17 Jingbian 8th Road, Haining warp knitting Industrial Park, Zhejiang, China",
     footer: "© 2025 Zhejiang AoXiu Textile New Materials Technology Co., Ltd. All rights reserved."
 };
 
