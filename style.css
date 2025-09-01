@@ -1,3 +1,37 @@
+/* Header LOGO优化 */
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+.header-row .logo-circle {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #8f94fb 0%, #4e54c8 100%);
+    border-radius: 50%;
+    box-shadow: 0 4px 16px rgba(78,84,200,0.16), 0 1.5px 8px rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #fff;
+    animation: logo-pop 1.2s cubic-bezier(.68,-0.55,.27,1.55);
+}
+.header-row .logo-img {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+@keyframes logo-pop {
+    0% { transform: scale(0.7); opacity: 0; }
+    60% { transform: scale(1.15); opacity: 1; }
+    100% { transform: scale(1); opacity: 1; }
+}
 body {
     font-family: 'Helvetica Neue', Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif;
     margin: 0;
