@@ -8,8 +8,8 @@
     margin-bottom: 8px;
 }
 .header-row .logo-circle {
-    width: 60px;
-    height: 60px;
+    width: 160px;
+    height: 160px;
     background: linear-gradient(135deg, #8f94fb 0%, #4e54c8 100%);
     border-radius: 50%;
     box-shadow: 0 4px 16px rgba(78,84,200,0.16), 0 1.5px 8px rgba(0,0,0,0.08);
@@ -20,8 +20,8 @@
     animation: logo-pop 1.2s cubic-bezier(.68,-0.55,.27,1.55);
 }
 .header-row .logo-img {
-    width: 44px;
-    height: 44px;
+    width: 150px;
+    height: 150px;
     object-fit: contain;
     border-radius: 50%;
     background: #fff;
