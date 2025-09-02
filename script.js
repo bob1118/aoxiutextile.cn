@@ -1,3 +1,4 @@
+var now = new Date()
 const zh = {
     title: "浙江奥秀纺织新材料科技有限公司",
     subtitle: "专注高品质纺织面料生产",
@@ -7,7 +8,7 @@ const zh = {
     productNames: ["AX-6001", "AX-6002", "AX-6003", "AX-6004", "AX-6005", "AX-6006", "AX-6007", "AX-6008", "AX-6009", "AX-6010", "AX-6011", "AX-6012", "AX-6013","AX-6014"],
     contact: "联系我们",
     contactText: "电话：13757321668<br>邮箱：440081234@163.com<br>地址：浙江海宁经编产业园区经编八路17号",
-    footer: "版权所有 © 2025 浙江奥秀纺织新材料科技有限公司"
+    footer: "版权所有 © 2006-"+ now.getFullYear() +" 浙江奥秀纺织新材料科技有限公司"
 };
 
 const en = {
@@ -19,7 +20,7 @@ const en = {
     productNames: zh.productNames,
     contact: "Contact Us",
     contactText: "Mobile: +86-13757321668<br>Email: 440081234@163.com<br>Address: No.17 Jingbian 8th Road, Haining warp knitting Industrial Park, Zhejiang, China",
-    footer: "© 2025 Zhejiang AoXiu Textile New Materials Technology Co., Ltd. All rights reserved."
+    footer: "© 2006-"+ now.getFullYear() +"Zhejiang AoXiu Textile New Materials Technology Co., Ltd. All rights reserved."
 };
 
 const zhBtn = document.getElementById('zh-btn');
@@ -45,7 +46,6 @@ function setLang(lang) {
 zhBtn.addEventListener('click', () => setLang('zh'));
 enBtn.addEventListener('click', () => setLang('en'));
 
-// 默认中文
 // 根据浏览器语言自动设置
 const userLang = navigator.language || navigator.userLanguage;
 if (userLang.startsWith('zh')) {
