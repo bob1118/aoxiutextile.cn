@@ -20,7 +20,7 @@ const en = {
     productNames: zh.productNames,
     contact: "Contact Us",
     contactText: "Mobile: +86-13757321668<br>Email: 440081234@163.com<br>Address: No.17 Jingbian 8th Road, Haining warp knitting Industrial Park, Zhejiang, China",
-    footer: "© 2006-"+ now.getFullYear() +"Zhejiang AoXiu Textile New Materials Technology Co., Ltd. All rights reserved."
+    footer: "© 2006-"+ now.getFullYear() +" Zhejiang AoXiu Textile New Materials Technology Co., Ltd. All rights reserved."
 };
 
 const zhBtn = document.getElementById('zh-btn');
