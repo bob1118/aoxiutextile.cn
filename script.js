@@ -4,7 +4,7 @@ const zh = {
     about: "公司简介",
     aboutText: "我们是一家拥有二十年经验的纺织企业，致力于为全球客户提供优质纺织面料。",
     products: "产品展示",
-    productNames: ["高档棉布", "优质丝绸", "精美羊毛"],
+    productNames: ["AX-6001", "AX-6002", "AX-6003", "AX-6004", "AX-6005", "AX-6006", "AX-6007", "AX-6008", "AX-6009", "AX-6010", "AX-6011", "AX-6012", "AX-6013","AX-6014"],
     contact: "联系我们",
     contactText: "电话：13757321668<br>邮箱：440081234@163.com<br>地址：浙江海宁经编产业园区经编八路17号",
     footer: "版权所有 © 2025 浙江奥秀纺织新材料科技有限公司"
@@ -16,7 +16,7 @@ const en = {
     about: "About Us",
     aboutText: "We are a textile company with twenty years of experience, dedicated to providing high-quality textile fabrics to customers worldwide.",
     products: "Products",
-    productNames: ["Premium Cotton", "Quality Silk", "Fine Wool"],
+    productNames: zh.productNames,
     contact: "Contact Us",
     contactText: "Mobile: +86-13757321668<br>Email: 440081234@163.com<br>Address: No.17 Jingbian 8th Road, Haining warp knitting Industrial Park, Zhejiang, China",
     footer: "© 2025 Zhejiang AoXiu Textile New Materials Technology Co., Ltd. All rights reserved."
